@@ -2,7 +2,7 @@ import Header from "../components/Header";
 
 const Error = () => {
     return (
-        <div>
+        <div className="body-container">
             <Header />  
             <h1>404: Seite nicht gefunden</h1>
         </div>

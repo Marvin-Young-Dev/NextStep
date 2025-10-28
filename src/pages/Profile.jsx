@@ -14,15 +14,18 @@ const Profile = () => {
                     >
                     </img>
                 </div>
-                <div className="short-user-infos"> 
+                <div className="short-user-infos">
+                    {/* TEMPORÄRER Inhalt */}
                     <p>Username : Demo User</p>
-                    <p>Email: Demo@NextStep.de</p>
                     <p>Birthday : 23.11.1998</p>
-                    
+
                 </div>
             </div>
             <div className="detailed-user-infos">
                 <p>beipsiel informationen</p>
+                {/* TEMPORÄRER Inhalt */}
+                <p>Username : Demo User</p>
+                <p>Birthday : 23.11.1998</p>
             </div>
             <div className="button-container">
                 <button className="btn login-btn">
