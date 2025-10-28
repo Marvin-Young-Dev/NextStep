@@ -5,7 +5,7 @@ const Profile = () => {
     return (
         <div>
             <Header />
-            <div>
+            <div className="floating-profile-container">
                 <div class="prfile-image-container">
                     <img
                         src="public/assets/images/profile/default_user.png"
@@ -18,6 +18,7 @@ const Profile = () => {
                     <p>Username : Demo User</p>
                     <p>Email: Demo@NextStep.de</p>
                     <p>Birthday : 23.11.1998</p>
+                    
                 </div>
             </div>
             <div className="detailed-user-infos">
